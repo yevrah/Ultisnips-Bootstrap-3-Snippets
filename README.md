@@ -10,11 +10,9 @@ These snippets were converted from Snipmate snippets created and shared by https
 
 Original snipmate snippet can be found at https://github.com/colbydehart/Bootstrap-3-snippets-html
 
-### Conversion
+### Conversion Process
 
 Conversion was performed thanks to subl2ultisnips https://github.com/rendom/Sublimetext-snippets-to-Ultisnips
-
-### Process
 
 The following commands were run to create the snippets
 
@@ -24,7 +22,7 @@ git clone https://github.com/colbydehart/Bootstrap-3-snippets-html.git
 find . -type file -iname '*-snippet' -exec subl2ultisnips {} html_bootstrap_3.snippets \;
 ```
 
-For some reason regulary expression transforms are not correctly converted, you will need to do a search and replace on the resulting snipets file using the following expression
+For some reason regular expression transforms are not correctly converted, you will need to do a search and replace on the resulting snippets file using the following expression
 
 ```
 s/\\1/$0/g
@@ -67,4 +65,4 @@ TBC
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+GNU LESSER GENERAL PUBLIC LICENSE
